@@ -109,7 +109,8 @@ p {
 
 .sidebar img {
     width: 100%;
-    height: 30px;          /* Controls crop height */   /* THIS crops the image */
+    height: 300px;  
+    object-fit: cover; /* Controls crop height */   /* THIS crops the image */
     border-radius: 6px;
 }
 
